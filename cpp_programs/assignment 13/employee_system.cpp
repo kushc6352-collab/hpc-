@@ -54,6 +54,12 @@ class developer : public Employee{
 
     }
 
+    void display(){
+        cout<<"the name of the developer is "<<name<<endl;
+        cout<<"the id of the developer is "<<id<<endl;
+        cout <<"the number of programming languages known are"<<number_of_programming_languages_known<<endl;
+    }
+
     
 
 
